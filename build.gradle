@@ -303,7 +303,7 @@ repositories {
 dependencies {
 
   compile group: 'org.apache.poi', name: 'poi', version: '4.1.2'
-  compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.2'
+  compile group: 'org.apache.poi', name: 'poi-ooxml', version: '5.0.0'
   compile group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
   compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: versions.springBoot
   compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: versions.springBoot
@@ -448,7 +448,7 @@ dependencies {
   testCompile group: 'org.codehaus.groovy', name: 'groovy-json', version: '2.5.14'
   testCompile group: 'org.springframework', name: 'spring-test', version: '5.2.9.RELEASE'
 
-  compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.2'
+  compile group: 'org.apache.poi', name: 'poi-ooxml', version: '5.0.0'
 
   integrationTestCompile sourceSets.main.runtimeClasspath
   integrationTestCompile sourceSets.test.runtimeClasspath
